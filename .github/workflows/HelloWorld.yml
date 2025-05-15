@@ -1,0 +1,11 @@
+name : Workflow Hello
+on : [push,pull_request,workflow_dispatch]
+jobs: 
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Say Hello"
+        run : echo "hello world"
+      - name :  "Close the door"
+        run : echo "Done runner"
+      
